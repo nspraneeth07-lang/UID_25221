@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Electronics</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: aliceblue;
+            font-family: sans-serif;
+        }
+
+        
+        .products {
+            grid-area: products;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .product-card {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            height: auto;
+            width: 600px;
+            width: 100%;
+        }
+        .p{
+            text-align: center;
+            background-color: tomato;
+            align-items: center;
+        }
+        img{
+            width: 120px;
+            height: auto;
+            border-radius: 8px;
+        }
+        
+
+        .button {
+            background-color: blue;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 50px;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #7094ff;
+        }
+    </style>
+</head>
+<body>
+        <div class="products">
+            <div class="product-card">
+                
+                <img src="C:\Users\nspra\Downloads\iphone.jpg.jpeg">
+                <h3>Iphone 17</h3>
+                <p>$899</p>
+                <p>12GB RAM | 256GB Storage</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="C:\Users\nspra\Downloads\s26.jpg.jpeg">
+                <h3>Samsung Galaxy S26</h3>
+                <p>$1199</p>
+                <p>12GB RAM | 512GB Storage</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="C:\Users\nspra\Downloads\delllaptop.jpg.jpeg">
+                <h3>Dell G15</h3>
+                <p>$799</p>
+                <p>16GB RAM | 1024GB Storage</p>
+                <button class="button">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="C:\Users\nspra\Downloads\hpvictus.jpg.jpeg">
+                <h3>HP victus</h3>
+                <p>$749</p>
+                <p>16GB RAM | 512GB Storage</p>
+                <button class="button">Add to Cart</button>
+            </div>
+        </div>
+</body>
