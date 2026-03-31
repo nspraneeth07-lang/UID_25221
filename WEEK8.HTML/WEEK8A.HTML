@@ -1,0 +1,73 @@
+8.A) Aim: create a web page that displays a square that continuously rotates 360 using css animation Program  
+
+Code: 
+
+Name = Praneeth , Roll no = 25221 , Section-C 
+
+<!DOCTYPE html> 
+
+<html> 
+
+<head> 
+<title>Continuous Rotating Square</title> 
+
+ <style> 
+
+ body { 
+
+ display: flex; 
+
+ flex-direction: column; 
+
+ align-items: center; 
+
+ margin: 0; 
+
+ } 
+
+ .rotating-square { 
+
+ width: 150px; 
+
+ height: 150px; 
+
+ background-color: #c3e050; 
+
+ border-radius: 15px; 
+
+ box-shadow: 0 4px 15px rgba(0,0,0,0.2); 
+
+ animation: spin 4s linear infinite; 
+
+ } 
+
+ @keyframes spin { 
+ from { 
+
+ transform: rotate(0deg); 
+
+ } 
+
+ to { 
+
+ transform: rotate(360deg); 
+
+ } 
+
+ } 
+
+ </style> 
+
+</head> 
+
+<body> 
+
+ <h1>Continuous Rotating Square</h1> 
+
+ <div class="rotating-square"></div> 
+
+ 
+
+</body> 
+
+</html>
